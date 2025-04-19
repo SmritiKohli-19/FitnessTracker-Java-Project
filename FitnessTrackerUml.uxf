@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>12</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>12</x>
+      <y>48</y>
+      <w>912</w>
+      <h>528</h>
+    </coordinates>
+    <panel_attributes>FitnessTracker
+--
+-firstName:String
+-lastName:String
+-gender:String
+-stepsTaken:int
+-caloriesBurned: int
+-activeMinutes: int
+--
++ FitnessTracker(firstName:String, lastName:String, gender:String, stepsTaken:int, caloriesBurned:int, activeMinutesint)
++getFirstName():String
++setFirstName(firstName:String):void
++getLastName():String
++setLastName(lastName:String):void
++getGender():String
++setGender(gender:String):void
++getStepsTaken():int
++setStepsTaken(stepsTaken:int):void
++getCaloriesBurnes():int
++setCaloriesBurned(caloriesBurned:int):void
++getActiveMinutes():int
++setActiveMinutes(activeMinutes:int):void
++calculateDistanceWalked():double
++calculateWklyAvgMinutes():double
++calculateWklyCalBurned():double
++calculateFitnessLevel(double wklyActiveMinutes,wklyCalBurned):String
++calculateCaloriesDeficitOrSurplus(int maintenanceCalories):int
++displayFitnessData():void
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>12</x>
+      <y>600</y>
+      <w>228</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>FitnessTrackerTest
+--
+__+main(args[]:String):void__</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
